@@ -31,6 +31,7 @@ a img{ border:none; }
 body{
   font-family:"proxima_nova_softmedium", Helvetica, Arial, sans-serif;
   font-size:14px;
+  background:#f2f2f2;
 }
 
 header{
@@ -145,7 +146,7 @@ h1.styleguide {
 
 /* @end */
 
-.omega-md-5 [class^="col-"]:nth-child(6n),
+.omega-md-5 [class^=""]:nth-child(6n),
 .omega-md-5 [class*=" col-"]:nth-child(6n) {
     clear: both
 }
@@ -159,10 +160,10 @@ h1.styleguide {
     border: 0
 }
 .section {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    margin: 20px auto;
     padding:6%;
+    background: #fff;
 }
 .section-grey {
     width: 100%;
@@ -173,14 +174,12 @@ h1.styleguide {
 }
 
 .page-heading {
-    font-size: 16px;
-    text-align: right;
-    background-color: #434349;
-    color: white;
-    padding: 20px 8%;
-    margin-bottom: 60px;
-    text-transform:uppercase;
-    letter-spacing: .2em;
+    text-align: center;
+    color: #434349;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    font-family: 'proxima_nova_softmedium';
+    line-height: 2.5em;
 }
 .styleguide-example .styleguide-element+.styleguide-element,
 .styleguide-example .styleguide-element {
@@ -213,14 +212,13 @@ h1.styleguide {
 }
 .styleguide-subheading {
     margin-top: 0px;
-    margin-bottom: 25px;
     padding-bottom: 10px;
     font-weight: 400;
     font-size: 16px;
     color: #434349;
 }
 .styleguide-color-row {
-    margin-bottom: 55px
+    margin-bottom: 20px
 }
 .styleguide-color-row code {
     font-size: 12px
@@ -243,4 +241,17 @@ h1.styleguide {
 }
 .styleguide-example .styleguide-element+.styleguide-element {
     border-top: 0
+}
+
+@font-face {
+    font-family: 'proxima_nova_softmedium';
+    src: url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.eot');
+    src: url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.woff2') format('woff2'),
+         url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.woff') format('woff'),
+         url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.ttf') format('truetype'),
+         url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.svg#proxima_nova_softmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
