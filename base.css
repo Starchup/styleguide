@@ -260,8 +260,6 @@ h1.styleguide {
  position: fixed;
  width: 100%;
  z-index: 10000;
- background: #bbb;
- color:#fff;
  margin: 0 auto;
   height: 50px;
   text-align: center;
