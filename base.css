@@ -176,8 +176,8 @@ h1.styleguide {
 .page-heading {
     text-align: center;
     color: #434349;
-    padding-bottom: 120px;
-    padding-top: 120px;
+    padding-bottom: 80px;
+    padding-top: 140px;
     font-family: 'proxima_nova_softmedium';
     line-height: 2.5em;
 }
@@ -255,3 +255,19 @@ h1.styleguide {
     font-style: normal;
 
 }
+
+ .primary-nav {
+ position: fixed;
+ width: 100%;
+ z-index: 10000;
+ background: #bbb;
+ color:#fff;
+ margin: 0 auto;
+  height: 50px;
+  text-align: center;
+ }
+
+ li{
+    margin: 2%;
+    display: inline;
+ }

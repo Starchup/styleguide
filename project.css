@@ -1674,13 +1674,27 @@ input[type="checkbox"]:checked+label {
 .round.btn-seafoam {
     border-radius: 49px
 }
-.button-mint {
+.button-edit {
     display: block;
-    background-color: #26DEBD;
+    background-color: #434646;
     color: #fff;
     text-align: center;
-    width: 300px;
-    font-weight: 600;
+    font-size: 0.875em;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+     border: none;
+}
+.button-cancel {
+    display: block;
+    background-color: #bbb;
+    color: #fff;
+    text-align: center;
     font-size: 0.875em;
     padding: 10px 30px;
     border-top-left-radius: 20px;
@@ -1708,6 +1722,21 @@ input[type="checkbox"]:checked+label {
      border: none;
 }
 
+
+.button-download {
+    display: block;
+    background-color: #fff;
+    color: #26debd;
+    text-align: center;
+    width: 80%;
+    font-size: 0.875em;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+     border: none;
+     margin: 0 auto;
+}
+
 .button-disabled {
     display: block;
     background-color: #BBBBBB;
@@ -1727,9 +1756,15 @@ input[type="checkbox"]:checked+label {
     transition: all 0.2s ease;
     border: none;
 }
-
+.button-edit:hover {
+    background-color: #49494f;
+}
 .button-mint:hover {
     background-color: #25bca2;
+    box-shadow: 0 1px 8px black;
+}
+.button-download:hover {
+    box-shadow: 0 1px 8px black;
 }
 .button-mint:active {
     background-color: #1c927d;
@@ -1933,6 +1968,22 @@ hr {
 
 }
 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: 1em FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .ss-icon{
     font-family: "SSGizmo";
     font-style: normal;
@@ -1940,4 +1991,6 @@ hr {
     text-decoration: none;
     font-size:1em;
     padding-right: .6em;
+    margin-top:30px;
 }
+
