@@ -263,9 +263,19 @@ h1.styleguide {
  margin: 0 auto;
   height: 50px;
   text-align: center;
+  background:#fff;
+-webkit-box-shadow: 2px 2px 9px 0px rgba(168,168,168,.5);
+-moz-box-shadow: 2px 2px 9px 0px rgba(168,168,168,.5);
+box-shadow: 2px 2px 9px 0px rgba(168,168,168,.5);
  }
 
  li{
     margin: 2%;
     display: inline;
+ }
+
+ .download{
+    color: #26debd;
+    text-decoration: underline;
+    text-align: center;
  }
