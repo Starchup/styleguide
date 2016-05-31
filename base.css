@@ -243,18 +243,7 @@ h1.styleguide {
     border-top: 0
 }
 
-@font-face {
-    font-family: 'proxima_nova_softmedium';
-    src: url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.eot');
-    src: url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.woff2') format('woff2'),
-         url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.woff') format('woff'),
-         url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.ttf') format('truetype'),
-         url('fonts/mark_simonson_-_proxima_nova_soft_medium-webfont.svg#proxima_nova_softmedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
  .primary-nav {
  position: fixed;
